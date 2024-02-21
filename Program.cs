@@ -1,14 +1,11 @@
-﻿Console.WriteLine("Please enter first number");
+﻿int counter = 0;
 
-string stringOne = Console.ReadLine();
 
-Console.WriteLine("Please enter second number");
+while(true)
+{
 
-string stringTwo = Console.ReadLine();
+Console.WriteLine(counter);
 
-int numberOne = Convert.ToInt32(stringOne);
-int numberTwo = Convert.ToInt32(stringTwo);
+counter = counter + 1;
 
-int sum = numberOne + numberTwo;
-
-Console.WriteLine(sum);
+}
